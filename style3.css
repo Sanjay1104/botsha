@@ -1,0 +1,73 @@
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Set background image for hero section */
+  .hero {
+    background-image: url('7138051.jpg.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+  }
+  
+  .hero-title {
+    font-size: 3rem;
+  }
+  
+  .hero-description {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+  }
+  
+  /* Style for services section */
+  .services {
+    padding: 2rem;
+  }
+  
+  .services-title {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .services-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+  }
+  
+  .service {
+    padding: 1rem;
+    border: 1px solid #ccc;
+  }
+  
+  .service-title {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .service-description {
+    font-size: 1rem;
+  }
+  
+  /* Style for back to home button */
+  .back-to-home {
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+    background-color: #000;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    font-size: 1rem;
+  }
+  
+  .back-to-home:hover {
+    background-color: #333;
+  }
